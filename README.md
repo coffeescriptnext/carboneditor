@@ -1,2 +1,2 @@
-# carboneditor
-Carbon Code Playground is an open source html/css/js code editor.
+#Carbon Code Playground
+Carbon Code Playground is an Open-Source Code Editor based on HTML/CSS/JS.
