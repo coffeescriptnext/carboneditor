@@ -1,0 +1,111 @@
+
+*{
+  margin: 5px;
+}
+body{
+  margin: 0 !important;
+  padding: 0;
+  background: #eee;
+  color: #000;
+  overflow: hidden;
+  display: none;
+}
+
+#hdr{
+  width: 670px;
+  text-align: center;
+  color: #08f;
+  margin-top: 5px;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 40px;
+}
+#hdr:hover{
+  color: #fff;
+  background: #08f;
+  margin-top: 5px;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 40px;
+}
+.code{
+  background: #fff;
+  color: #17354B;
+  width: 49%;
+  height: 560px;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 14px;
+  border: 1px solid black;
+  resize: none;
+}
+.code:focus{
+  background: #17354B;
+  color: #fff;
+  width: 49%;
+  height: 560px;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 14px;
+  border: 1px solid black;
+  resize: none;
+}
+
+#CSS{
+  display: none;
+}
+
+#JS{
+  display: none;
+}
+
+#display{
+  background-color: #fff;
+  width: 49%;
+  height:565px;
+  float: right;
+}
+
+
+#save{
+  position: absolute;
+  background: #6ed172;
+  border-color: #6ed172;
+  color: #fff;
+  height: 39px;
+  width: 76px;
+  right: 0px;
+  top: 8px;
+}
+#save:hover{
+  position: absolute;
+  background: #fff;
+  border-color: #fff;
+  color: #6ed172;
+  height: 39px;
+  width: 76px;
+  right: 0px;
+  top: 8px;
+}
+#loadFile{
+  position: absolute;
+  background: #3379b2;
+  border-color: #3379b2;
+  color: #fff;
+  height: 39px;
+  width: 76px;
+  right: 80px;
+  top: 8px;
+}
+#loadFile:hover{
+  position: absolute;
+  background: #fff;
+  border-color: #fff;
+  color: #3379b2;
+  height: 39px;
+  width: 76px;
+  right: 80px;
+  top: 8px;
+}
+
+#loadP{
+  position: absolute;
+  top: 8px;
+  right: 160px;
+}
