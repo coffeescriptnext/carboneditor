@@ -1,0 +1,67 @@
+@@font-face {
+  font-family: "Menlo";
+  src: url("https://github.com/hbin/top-programming-fonts/blob/master/Menlo-Regular.ttf");
+}
+
+
+body{
+  background: #eee;
+}
+h1{
+  font-weight: bold;
+  font-family: 'Menlo', 'Inconsolata', monospace;
+  text-align: center;
+}
+
+.code, code:focus{
+  outline: none;
+  font-size: 18px;
+  text-align: left;
+  background: #31343F;
+  margin: 0 auto;
+  padding: 20px 30px 20px 30px;
+  width: 70%;
+  max-width: 70%;
+  height: 500px;
+  color: #7CB9FD;
+  font-family: 'Menlo', monospace;
+  border:none;
+}
+
+.naver{
+  width: 70%;
+  margin:0;
+  font-family: 'Menlo', monospace;
+  font-size: 20px;
+  background: #f9f9f9;
+  border: none;
+}
+
+.fonted{
+  font-family: 'Menlo', monospace;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{
+  color: #fff;
+  background-color: #666;
+}
+
+.navbar-default .navbar-brand{
+  color: #666;
+  font-size:25px;
+}
+
+#css{
+  display: none;
+}
+
+#js{
+  display: none;
+}
+.navbar-default .navbar-nav>.run>a, .navbar-default .navbar-nav>.run>a:focus,.navbar-default .navbar-nav>.run>a:hover{
+  color: #fff;
+  background-color: #0c0;
+}
+.runactive{
+  color: #fff;
+  background-color: #0a0;
+}
